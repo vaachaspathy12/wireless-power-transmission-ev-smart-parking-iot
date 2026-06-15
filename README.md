@@ -33,6 +33,30 @@ This project implements an IoT-based Electric Vehicle (EV) Wireless Charging and
 5. The LCD displays the active charging station information.
 6. Distance information is also sent through the serial monitor for debugging and monitoring.
 
+   Start
+  ↓
+Initialize LCD
+  ↓
+Initialize Sensors
+  ↓
+Measure Distance 1
+  ↓
+Measure Distance 2
+  ↓
+Vehicle in Slot 1?
+  ↓
+Relay 1 ON/OFF
+  ↓
+Vehicle in Slot 2?
+  ↓
+Relay 2 ON/OFF
+  ↓
+Update LCD
+  ↓
+Print Distances
+  ↓
+Repeat Forever
+
 ## Pin Configuration
 
 | Component | Arduino Pin |
